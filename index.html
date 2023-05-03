@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign-Up Form</title>
+   
+</head>
+<body>
+    <header>
+        <h1>Save The Children</h1>
+    </header>
+    <p>
+        Experience the power of transforming lives by joining the Children's Shelter of Cebu charity organization. As a member, you'll play a vital role in providing abandoned, abused, and neglected children in Cebu, Philippines with a safe haven, education, healthcare, and emotional support. Your contribution, whether through time, skills, or resources, will break the cycle of poverty and offer these children hope for a brighter future. Join us today and be part of a dedicated community committed to making a profound impact.
+    </p>
+    <form onsubmit="fillout()">
+        <h2>Sign-Up Form</h2>
+        <label for="fn">First Name:</label>
+		<input type="text" id="fn" name="fn" required><br>
+		<label for="ln">Last Name:</label>
+		<input type="text" id="ln" name="ln" required><br>
+
+        <label>Sex:</label>
+		<input type="radio" id="m" name="sex" value="m" required>
+		<label for="m">Male</label>
+		<input type="radio" id="f" name="sex" value="f" required>
+		<label for="f">Female</label>
+		<input type="radio" id="prefer" name="sex" value="prefer" required>
+        <label for="prefer">Prefer Not to Say</label><br>
+
+        <label for="email">Email Address:</label>
+		<input type="text" id="email" name="email" required><br>
+		<label for="contact">Contact Number:</label>
+		<input type="text" id="contact" name="contact"><br>
+        <input type="submit" value="Sign-Up">
+		<input type="reset" value="Reset Form">
+    </form>
+</body>
+</html>
